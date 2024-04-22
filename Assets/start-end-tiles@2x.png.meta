@@ -207,7 +207,7 @@ TextureImporter:
       213: -2572387535113077207
     second: GameOver
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -228,6 +228,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -266,6 +267,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -293,6 +295,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1744,6 +1770,75 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      GameOver: -2572387535113077207
+      start-end-tiles@2x_0: -40810539670604280
+      start-end-tiles@2x_1: 7392217743382805941
+      start-end-tiles@2x_10: -8099465378656809325
+      start-end-tiles@2x_11: 1969210124186303079
+      start-end-tiles@2x_12: 728220775619327230
+      start-end-tiles@2x_13: 8506525597467633842
+      start-end-tiles@2x_14: -3660808981067906772
+      start-end-tiles@2x_15: 1634996054476700202
+      start-end-tiles@2x_16: 5476027007109667207
+      start-end-tiles@2x_17: -6052726763505726702
+      start-end-tiles@2x_18: -2925502280409952248
+      start-end-tiles@2x_19: 8507308208885535605
+      start-end-tiles@2x_2: 8536567514479135535
+      start-end-tiles@2x_20: 6204758663340497356
+      start-end-tiles@2x_21: 809893520938097788
+      start-end-tiles@2x_22: 8809099106059427962
+      start-end-tiles@2x_23: -5025984721137223733
+      start-end-tiles@2x_24: -3301082044357969061
+      start-end-tiles@2x_25: -720215671609823137
+      start-end-tiles@2x_26: -3010706878295858123
+      start-end-tiles@2x_27: -6119252480765009383
+      start-end-tiles@2x_28: -3234085375025083193
+      start-end-tiles@2x_29: -1085540317640804218
+      start-end-tiles@2x_3: -737100917251736049
+      start-end-tiles@2x_30: -4982502240083438333
+      start-end-tiles@2x_31: 2083034669222442762
+      start-end-tiles@2x_32: -4269805910347437521
+      start-end-tiles@2x_33: -5829307542958857154
+      start-end-tiles@2x_34: -5962154126339438259
+      start-end-tiles@2x_35: -1170087473704807680
+      start-end-tiles@2x_36: 1728975255844644693
+      start-end-tiles@2x_37: 7362340371092791478
+      start-end-tiles@2x_38: 3659683888065482998
+      start-end-tiles@2x_39: -625771015040440491
+      start-end-tiles@2x_4: 8674369282039702366
+      start-end-tiles@2x_40: -3007840133573986898
+      start-end-tiles@2x_41: 3542533855377283339
+      start-end-tiles@2x_42: -562212332866438637
+      start-end-tiles@2x_43: 8151364120208160417
+      start-end-tiles@2x_44: -5924058546314963631
+      start-end-tiles@2x_45: 8833962258255134349
+      start-end-tiles@2x_46: -7271085557612056731
+      start-end-tiles@2x_47: 84686437455088052
+      start-end-tiles@2x_48: -6020066270831755158
+      start-end-tiles@2x_49: 5825607410336955185
+      start-end-tiles@2x_5: 5117516331178317842
+      start-end-tiles@2x_50: -3792939672910337821
+      start-end-tiles@2x_51: 417161007529327801
+      start-end-tiles@2x_52: 2731955803930965604
+      start-end-tiles@2x_53: -1820109957296077104
+      start-end-tiles@2x_54: 3898073403304909699
+      start-end-tiles@2x_55: -4428405584247406549
+      start-end-tiles@2x_56: -3831252870875081033
+      start-end-tiles@2x_57: 861874535163567403
+      start-end-tiles@2x_58: 625511682236719377
+      start-end-tiles@2x_59: -8301560959806287421
+      start-end-tiles@2x_6: -7252708970234020524
+      start-end-tiles@2x_60: 5618839871709879347
+      start-end-tiles@2x_61: 2128478449385160347
+      start-end-tiles@2x_62: -7200344696854054562
+      start-end-tiles@2x_63: 4252701312756576057
+      start-end-tiles@2x_64: 3835404522824462832
+      start-end-tiles@2x_65: -1297367860509689348
+      start-end-tiles@2x_66: 1834491708637605313
+      start-end-tiles@2x_7: 7056137214316158526
+      start-end-tiles@2x_8: 4363333258663790373
+      start-end-tiles@2x_9: 1968406612332276638
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
